@@ -1,0 +1,14 @@
+# 0: Perlin noise  1: Math.Random  2: Circle (based on distance)
+random_method: 2
+
+
+# How many blocks can be in the air (for optimization)
+max_falling_blocks: 200
+
+# Smoke particles configuration
+min_particles: 50
+max_particles: 200
+
+
+# Percentage of blocks flying apart
+falling_blocks_percent: 50.0

@@ -1,0 +1,5 @@
+name: PhysicsExplosion
+version: '1.0'
+api-version: 1.20
+main: org.grovv.tnt.ExplosionPlugin
+author: Grovv
