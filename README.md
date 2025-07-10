@@ -2,8 +2,6 @@
 [![Available on SpigotMC](https://img.shields.io/badge/Spigot-1.20-green)](https://www.spigotmc.org/resources/physics-explosion.126838/)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
----
-
 This plugin adds customizable mechanics of physical scattering of blocks during any explosion, and other effects.
 
 # Showcase
