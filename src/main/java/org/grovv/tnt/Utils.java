@@ -89,6 +89,8 @@ public class Utils {
                             continue;
                         if (currentBlock.getType() == Material.CHAIN_COMMAND_BLOCK)
                             continue;
+                        if (currentBlock.getType() == Material.BARRIER)
+                            continue;
                         if (Random(1, 100) <= (int) blocksPercent) {
                             FallingBlock fallingBlock = world.spawnFallingBlock(
                                         currentBlock.getLocation().add(new Vector(0, 0.5, 0)),
@@ -150,3 +152,4 @@ public class Utils {
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 }
+
